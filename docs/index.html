@@ -359,7 +359,7 @@ nb_path: "index.ipynb"
     <span class="k">if</span> <span class="n">model</span><span class="o">.</span><span class="n">pretrained</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">learn</span><span class="o">.</span><span class="n">layer_groups</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
         <span class="n">learn</span><span class="o">.</span><span class="n">freeze</span><span class="p">()</span>
     <span class="k">if</span> <span class="n">init</span><span class="p">:</span>
-        <span class="n">apply_init</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">nn</span><span class="o">.</span><span class="n">init</span><span class="o">.</span><span class="n">kaiming_normal_</span><span class="p">)</span>
+        <span class="n">apply_init</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">torch</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">init</span><span class="o">.</span><span class="n">kaiming_normal_</span><span class="p">)</span>
 
     <span class="k">return</span> <span class="n">learn</span>
 

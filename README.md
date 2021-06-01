@@ -204,7 +204,7 @@ def get_learner(data, model, init, metrics, wd):
     if model.pretrained and len(learn.layer_groups) > 1:
         learn.freeze()
     if init:
-        apply_init(model, nn.init.kaiming_normal_)
+        apply_init(model, torch.nn.init.kaiming_normal_)
 
     return learn
 
