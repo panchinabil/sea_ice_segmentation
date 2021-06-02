@@ -246,4 +246,7 @@ learn = train(
 ```
 
 # References
-> The implementation of the deep learning models was derived from https://github.com/yassouali/pytorch-segmentation> The implementation of the convolutional conditional random field used for postprocessing was derived from https://github.com/MarvinTeichmann/ConvCRF 
+
+- The implementation of the deep learning models was derived from https://github.com/yassouali/pytorch-segmentation
+
+- The implementation of the convolutional conditional random field used for postprocessing was derived from https://github.com/MarvinTeichmann/ConvCRF 
