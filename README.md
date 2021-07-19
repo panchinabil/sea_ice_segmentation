@@ -49,6 +49,17 @@ classes = [
 ```
 
 ```python
+open_image(Path('/media/panchinabil/Nabil/project_2/private_collection/demo-figs').ls()[1])
+```
+
+
+
+
+![png](docs/images/output_3_0.png)
+
+
+
+```python
 def get_label_from_img(img_file, path_lbl=path_lbl):
     return path_lbl / f"{img_file.stem}_mask.png"
 
