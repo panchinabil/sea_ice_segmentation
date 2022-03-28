@@ -261,7 +261,8 @@ learn = train(
 
 If you use this code, please cite: 
 
-```@article{panchi2021supplementing,
+```
+@article{panchi2021supplementing,
   title={Supplementing Remote Sensing of Ice: Deep Learning-Based Image Segmentation System for Automatic Detection and Localization of Sea-ice Formations From Close-Range Optical Images},
   author={Panchi, Nabil and Kim, Ekaterina and Bhattacharyya, Anirban},
   journal={IEEE Sensors Journal},
@@ -270,4 +271,5 @@ If you use this code, please cite:
   pages={18004--18019},
   year={2021},
   publisher={IEEE}
-}```
+}
+```
