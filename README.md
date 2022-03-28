@@ -264,3 +264,19 @@ learn = train(
 - The implementation of the deep learning models was derived from https://github.com/yassouali/pytorch-segmentation
 
 - The implementation of the convolutional conditional random field used for postprocessing was derived from https://github.com/MarvinTeichmann/ConvCRF 
+
+
+# Cite
+
+If you use this code, please cite: 
+
+```@article{panchi2021supplementing,
+  title={Supplementing Remote Sensing of Ice: Deep Learning-Based Image Segmentation System for Automatic Detection and Localization of Sea-ice Formations From Close-Range Optical Images},
+  author={Panchi, Nabil and Kim, Ekaterina and Bhattacharyya, Anirban},
+  journal={IEEE Sensors Journal},
+  volume={21},
+  number={16},
+  pages={18004--18019},
+  year={2021},
+  publisher={IEEE}
+}```
