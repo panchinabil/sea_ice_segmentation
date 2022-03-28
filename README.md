@@ -51,15 +51,6 @@ classes = [
 ]
 ```
 
-```python
-open_image(Path('/media/panchinabil/Nabil/project_2/private_collection/demo-figs').ls()[1])
-```
-
-
-
-
-![png](docs/images/output_3_0.png)
-
 
 
 ```python
