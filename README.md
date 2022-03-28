@@ -3,6 +3,9 @@
 > This repository contains code for the paper titled 'Supplementing remote sensing of ice: Deep learning-based image segmentation system for automatic detection and localization of sea-ice formations from close-range optical images'. 
 
 
+**If you are here after the ASSW-2022 workshop: The code demo is available in the ice_seg.ipynb notebook**
+
+
 # Dataset
 
 **Folder structure**
